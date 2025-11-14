@@ -124,17 +124,37 @@ nav a:hover {
     min-height: 80vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center; 
 }
 .hero h1 {
     font-size: 3rem;
+    margin-bottom: 15px; 
 }
-.hero p {
+
+.hero-subtitle {
     font-size: 1.2rem;
+    color: var(--text-color);
+    opacity: 0.8; 
+    margin-bottom: 10px;
+}
+
+.hero-goal {
+    font-size: 1.5rem;
+    color: var(--primary-color); 
+    font-weight: 500;
     margin-bottom: 30px;
 }
 
+.hero-goal strong {
+    font-weight: 700; 
+}
+
+.hero-description {
+    font-size: 1.2rem;
+    margin-bottom: 30px; 
+    max-width: 650px; 
+}
 /* --- Bouton CTA (Call to Action) --- */
 .cta-button {
     background-color: var(--primary-color);
